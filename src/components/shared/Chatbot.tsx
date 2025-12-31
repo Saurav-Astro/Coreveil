@@ -372,7 +372,7 @@ export function Chatbot() {
     }
     
     // Check if user wants to see case studies
-    if (msg.includes("case") || msg.includes("stud") || msg.includes("portfolio") || msg === "2") {
+    if (msg.includes("case") || msg.includes("stud") || msg === "2") {
       setIsTyping(true);
       setTimeout(() => {
         addBotMessage("Great! 💼 Check out our **Services page** to see our real-world projects and case studies:\n\n📌 **View Our Work:** [Visit Services Page](/services)\n\nYou'll see:\n• Real project examples\n• Technologies we used\n• Results & impact\n• Client success stories\n\nReady to start your project? Let me collect your details!");

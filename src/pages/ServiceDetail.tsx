@@ -15,7 +15,6 @@ import techConsultingVideo from "@/asset/service/Tech_Consulting_&_MVP_Developme
 
 // Import demo images
 import eventPlatformImage from "@/asset/image_asset/Event_Management_Platform.png";
-import portfolioImage from "@/asset/image_asset/portfolio.png";
 import biotechImage from "@/asset/image_asset/biotech.png";
 
 // Types
@@ -217,11 +216,6 @@ const serviceDetails: Record<string, ServiceDetail> = {
         url: "https://event-pi-beige.vercel.app/",
         title: "Event Management Platform",
         image: eventPlatformImage
-      },
-      {
-        url: "https://astro-saurav.xyz/",
-        title: "Portfolio Website",
-        image: portfolioImage
       },
       {
         url: "https://bioconverge-blush.vercel.app/",
